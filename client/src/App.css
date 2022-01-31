@@ -1,0 +1,35 @@
+.app-container{
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.register-container{
+  padding: 10px 20px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin-top: 20px;
+  box-shadow: 0,0,0,0.1 #000;
+}
+.register-title{
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: monospace;
+}
+.register-input{
+  display:block;
+  padding:7px 0;
+  margin: 10px auto;
+  border: none;
+}
+.register-button{
+  padding:2px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.register-input:focus{
+  border: none;
+  border-bottom: 1px solid #000;
+  box-shadow: 0 0 0 0;
+    outline: 0;
+}
